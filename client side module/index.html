@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <title>WILD 512</title>
+</head>
+<body>
+  <section class="game-board">
+    <div class="nav-game">
+      <div class="nav-atas">
+        <h1 class="title">512</h1>
+        <div class="score">
+          <div class="this-score">
+            <p>score</p>
+            <p>0</p>
+          </div>
+          <div class="best-score">
+            <p>best</p>
+            <p>0</p>
+          </div>
+        </div>
+      </div>
+      <div class="nav-bawah">
+        <a href="#" class="audio-setting" style="background-image: url('./assets/speaker.svg');"></a>
+        <a href="">new game</a>
+      </div>
+    </div>
+
+    <section class="playground">
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+      <div class="col"><p></p></div>
+    </section>
+  </section>
+  
+  <div class="start-game">
+    <div class="inscruction">
+      <ul>
+        <li><p>1. gunakan arrow key untuk bermain</p></li>
+        <li><p>2. tabrakkan 2 angka yang sama</p></li>
+        <li><p>3. capai jumlah angka 512 untuk menang</p></li>
+        <li><p>4. jika tidak ada ruang gerak tersisa kamu kalah</p></li>
+      </ul>
+    </div>
+    <button id="start">start game</button>
+  </div>
+  <div class="notif loos" style="display: none;">
+    <h1>Game over</h1>
+    <a href="">Try again</a>
+  </div>
+  <div class="notif win" style="display: none;">
+      <h1>You win !!!</h1>
+      <a href="">Play again</a>
+    </div>
+</body>
+</html>
